@@ -1,11 +1,11 @@
-let num1 = prompt("Enter the first number: ");
-let num2 = prompt("Enter the second number: ");
+let num1 = Number(prompt("Enter the first number: "));
+let num2 = Number(prompt("Enter the second number: "));
 let operator = prompt("Enter the operator (+, -, *, /): ");
 
 let result;
 
 switch (operator) {
-  case "+":
+  case "+" :
     result = num1 + num2;
     break;
   case "-":
